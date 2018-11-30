@@ -142,4 +142,4 @@ client.on('ready', () => console.log('By Rie'));//كلام يظهر فل كون�
 
 
 
-client.login(TOKEN); 
+client.login(process.env.BOT_TOKEN); 
